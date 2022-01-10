@@ -1,0 +1,32 @@
+[[package]]
+name = "syllapy"
+version = "0.7.1"
+description = "Calculate syllable counts for English words."
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0"
+
+[package.dependencies]
+ujson = ">=1.35,<2.0"
+
+[[package]]
+name = "ujson"
+version = "1.35"
+description = "Ultra fast JSON encoder and decoder for Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "0310171cd0bc3c5fd21d3c602b86195c3bbafafdea995b039babef209270ce31"
+
+[metadata.files]
+syllapy = [
+    {file = "syllapy-0.7.1-py3-none-any.whl", hash = "sha256:780e58448283e70ea7a0a4dc4db3c8045adbff14aea52c11c4cef7fd1df9e60c"},
+    {file = "syllapy-0.7.1.tar.gz", hash = "sha256:56eeac7f490905643a093d663ad0eec8c0f10344f80f96462414e8530c152cbb"},
+]
+ujson = [
+    {file = "ujson-1.35.tar.gz", hash = "sha256:f66073e5506e91d204ab0c614a148d5aa938bdbf104751be66f8ad7a222f5f86"},
+]
